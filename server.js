@@ -1,6 +1,6 @@
 import express from "express";
 import userRoute from "./routes/user_route.js";
-import sequelize from "./db/connect_db.js";
+import sequelize from "./config/connect_db.js";
 
 const app=express();
 
